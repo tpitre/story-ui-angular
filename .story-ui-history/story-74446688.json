@@ -1,0 +1,14 @@
+{
+  "storyId": "story-74446688",
+  "title": "Story 74446688",
+  "versions": [
+    {
+      "id": "007ebb3c696b1542",
+      "timestamp": 1764731616314,
+      "prompt": "Add an image at the top of the card using mat-card-image. Use a placeholder image URL like https://picsum.photos/400/200",
+      "code": "import React from 'react';\nimport type { Meta, StoryObj } from '@storybook/angular';\nimport { moduleMetadata } from '@storybook/angular';\nimport { MatCardModule } from '@angular/material/card';\nimport { MatButtonModule } from '@angular/material/button';\n\nconst meta: Meta = {\n  title: 'Generated/Material Card with Image',\n  decorators: [\n    moduleMetadata({\n      imports: [MatCardModule, MatButtonModule],\n    }),\n  ],\n  parameters: {\n    layout: 'centered',\n  },\n} satisfies Meta;\n\nexport default meta;\ntype Story = StoryObj<typeof meta>;\n\nexport const Default: Story = {\n  render: () => ({\n    template: `\n      <mat-card style=\"max-width: 400px;\">\n        <img mat-card-image src=\"https://picsum.photos/400/200\" alt=\"Placeholder image\">\n        <mat-card-header>\n          <mat-card-title>Card Title</mat-card-title>\n        </mat-card-header>\n        <mat-card-content>\n          <p>This is a sample card with a beautiful image at the top. The card includes a title, descriptive content, and an action button below.</p>\n        </mat-card-content>\n        <mat-card-actions align=\"end\">\n          <button mat-raised-button color=\"primary\">Learn More</button>\n        </mat-card-actions>\n      </mat-card>\n    `,\n  }),\n};",
+      "fileName": "story-74446688"
+    }
+  ],
+  "currentVersionId": "007ebb3c696b1542"
+}

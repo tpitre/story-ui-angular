@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Angular Material Button",
+    "fileName": "angular-material-button-2897f84a.stories.tsx",
+    "storyId": "story-2897f84a",
+    "hash": "2897f84a",
+    "createdAt": "2025-12-02T18:44:26.627Z",
+    "updatedAt": "2025-12-02T18:44:26.627Z",
+    "prompt": "Create a simple Angular Material button story"
+  },
+  {
+    "title": "Primary Material Button",
+    "fileName": "primary-material-button-10036853.stories.tsx",
+    "storyId": "story-10036853",
+    "hash": "10036853",
+    "createdAt": "2025-12-02T18:59:13.132Z",
+    "updatedAt": "2025-12-02T19:27:14.482Z",
+    "prompt": "Create a simple Angular Material button with primary color"
+  },
+  {
+    "title": "Primary Button - Angular Material",
+    "fileName": "primary-button-angular-material-ffc295d1.stories.tsx",
+    "storyId": "story-ffc295d1",
+    "hash": "ffc295d1",
+    "createdAt": "2025-12-02T19:37:07.874Z",
+    "updatedAt": "2025-12-02T19:37:07.874Z",
+    "prompt": "Create a simple Angular Material button with primary color"
+  },
+  {
+    "title": "Simple Card with Title and Description",
+    "fileName": "simple-card-with-title-and-description-9a705bc1.stories.tsx",
+    "storyId": "story-9a705bc1",
+    "hash": "9a705bc1",
+    "createdAt": "2025-12-03T02:46:19.667Z",
+    "updatedAt": "2025-12-03T02:46:19.667Z",
+    "prompt": "Create a simple card with a title and description"
+  },
+  {
+    "title": "Material Card with Title and Action Button",
+    "fileName": "material-card-with-title-and-action-button-74446688.stories.tsx",
+    "storyId": "story-74446688",
+    "hash": "74446688",
+    "createdAt": "2025-12-03T03:12:44.237Z",
+    "updatedAt": "2025-12-03T03:12:44.237Z",
+    "prompt": "Create a simple card component with Angular Material using MatCard. Include a title, description text, and an action button."
+  },
+  {
+    "title": "Simple Card",
+    "fileName": "story-74446688",
+    "storyId": "story-74446688",
+    "hash": "74446688",
+    "createdAt": "2025-12-03T03:13:36.313Z",
+    "updatedAt": "2025-12-03T03:13:36.313Z",
+    "prompt": "Add an image at the top of the card using mat-card-image. Use a placeholder image URL like https://picsum.photos/400/200"
+  }
+]

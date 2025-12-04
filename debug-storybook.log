@@ -1,0 +1,22 @@
+[21:23:33.051] [INFO] storybook v10.1.2
+[21:23:34.041] [DEBUG] Getting package.json info for /Users/tjpitre/Sites/test-storybooks/angular-material/package.json...
+[21:23:35.322] [INFO] Starting...
+[21:23:35.356] [WARN] No story files found for the specified pattern: src/**/*.mdx
+[21:23:35.475] [DEBUG] Starting preview..
+[21:23:35.500] [INFO] Addon-docs: using MDX3
+[21:23:35.546] [INFO] Using implicit CSS loaders
+[21:23:35.549] [ERROR] Failed to build the preview
+[21:23:35.552] [ERROR] [38;2;241;97;97mSB_FRAMEWORK_ANGULAR_0001 (AngularLegacyBuildOptionsError): Your Storybook startup script uses a solution that is not supported anymore.
+You must use Angular builder to have an explicit configuration on the project used in angular.json.
+
+Please run 'npx storybook automigrate' to automatically fix your config.
+
+More info: 
+	- https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#angular-drop-support-for-calling-storybook-directly
+	- https://github.com/storybookjs/storybook/tree/next/code/frameworks/angular#how-do-i-migrate-to-an-angular-storybook-builder
+[39m
+    at checkForLegacyBuildOptions (file://./node_modules/@storybook/angular/dist/server/framework-preset-angular-cli.js:310:11)
+    at Object.webpackFinal (file://./node_modules/@storybook/angular/dist/server/framework-preset-angular-cli.js:244:3)
+    at file://./node_modules/storybook/dist/_node-chunks/chunk-2ROLNOX5.js:10134:36
+[21:23:35.554] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.
