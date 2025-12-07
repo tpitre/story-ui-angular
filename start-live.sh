@@ -17,7 +17,7 @@ STORYBOOK_PID=$!
 
 # Wait for Angular Storybook to initialize (takes longer than other frameworks)
 echo "⏳ Waiting for Angular Storybook to start (this may take a minute)..."
-sleep 30
+sleep 60
 
 # Verify Storybook is running
 if ! kill -0 $STORYBOOK_PID 2>/dev/null; then
