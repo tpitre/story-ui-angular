@@ -16,8 +16,8 @@ npm run storybook -- --port "$STORYBOOK_PORT" --host 0.0.0.0 --ci --no-open &
 STORYBOOK_PID=$!
 
 # Wait for Angular Storybook to initialize (takes longer than other frameworks)
-echo "⏳ Waiting for Angular Storybook to start (this may take a minute)..."
-sleep 60
+echo "⏳ Waiting for Angular Storybook to start (this may take 90 seconds)..."
+sleep 90
 
 # Verify Storybook is running
 if ! kill -0 $STORYBOOK_PID 2>/dev/null; then
