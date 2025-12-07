@@ -21,6 +21,14 @@ const config: StorybookConfig = {
     disableTelemetry: true,
   },
   docs: {},
+  webpackFinal: async (config) => {
+    // Add CSS loader for StoryUI panel CSS imports in TSX files
+    config.module?.rules?.push({
+      test: /StoryUIPanel\.css$/,
+      use: ['style-loader', 'css-loader'],
+    });
+    return config;
+  },
 };
 
 export default config;
