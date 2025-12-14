@@ -1,0 +1,14 @@
+{
+  "storyId": "primary-button-e4a13329.stories.ts",
+  "title": "Primary Button E4a13329.Stories.Ts",
+  "versions": [
+    {
+      "id": "4db4a13b7c2dc44e",
+      "timestamp": 1765679379922,
+      "prompt": "Create a simple button with primary color",
+      "code": "import type { Meta, StoryObj } from '@storybook/angular';\nimport { moduleMetadata } from '@storybook/angular';\nimport { MatButtonModule } from '@angular/material/button';\n\nconst meta: Meta = {\n  title: 'Generated/Primary Button',\n  tags: ['autodocs'],\n  decorators: [\n    moduleMetadata({\n      imports: [MatButtonModule],\n    }),\n  ],\n  parameters: { layout: 'centered' },\n};\n\nexport default meta;\ntype Story = StoryObj;\n\nexport const Primary: Story = {\n  render: () => ({\n    template: `\n      <button mat-raised-button color=\"primary\">\n        Click Me\n      </button>\n    `,\n  }),\n};\n\nexport const PrimaryFlat: Story = {\n  render: () => ({\n    template: `\n      <button mat-flat-button color=\"primary\">\n        Click Me\n      </button>\n    `,\n  }),\n};\n\nexport const PrimaryStroked: Story = {\n  render: () => ({\n    template: `\n      <button mat-stroked-button color=\"primary\">\n        Click Me\n      </button>\n    `,\n  }),\n};\n\nexport const AllVariants: Story = {\n  render: () => ({\n    template: `\n      <div style=\"display: flex; gap: 16px; align-items: center;\">\n        <button mat-raised-button color=\"primary\">Raised</button>\n        <button mat-flat-button color=\"primary\">Flat</button>\n        <button mat-stroked-button color=\"primary\">Stroked</button>\n        <button mat-button color=\"primary\">Basic</button>\n      </div>\n    `,\n  }),\n};",
+      "fileName": "primary-button-e4a13329.stories.ts"
+    }
+  ],
+  "currentVersionId": "4db4a13b7c2dc44e"
+}

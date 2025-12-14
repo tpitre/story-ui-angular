@@ -61,5 +61,113 @@
     "createdAt": "2025-12-13T23:31:20.217Z",
     "updatedAt": "2025-12-13T23:32:10.138Z",
     "prompt": "Make it a primary raised button"
+  },
+  {
+    "title": "Primary Button",
+    "fileName": "primary-button-e4a13329.stories.ts",
+    "storyId": "story-e4a13329",
+    "hash": "e4a13329",
+    "createdAt": "2025-12-14T02:29:39.921Z",
+    "updatedAt": "2025-12-14T02:29:39.921Z",
+    "prompt": "Create a simple button with primary color"
+  },
+  {
+    "title": "Card with Title and Subtitle",
+    "fileName": "card-with-title-and-subtitle-b5335cca.stories.ts",
+    "storyId": "story-b5335cca",
+    "hash": "b5335cca",
+    "createdAt": "2025-12-14T02:30:08.272Z",
+    "updatedAt": "2025-12-14T02:30:08.272Z",
+    "prompt": "Create a card component with title and subtitle"
+  },
+  {
+    "title": "Card Component",
+    "fileName": "card-component-2f5340e5.stories.ts",
+    "storyId": "story-2f5340e5",
+    "hash": "2f5340e5",
+    "createdAt": "2025-12-14T02:31:23.487Z",
+    "updatedAt": "2025-12-14T02:31:23.487Z",
+    "prompt": "Create a card component"
+  },
+  {
+    "title": "Form with Inputs",
+    "fileName": "form-with-inputs-2c5e8403.stories.ts",
+    "storyId": "story-2c5e8403",
+    "hash": "2c5e8403",
+    "createdAt": "2025-12-14T02:32:05.792Z",
+    "updatedAt": "2025-12-14T02:32:05.792Z",
+    "prompt": "Create a form with inputs"
+  },
+  {
+    "title": "Dialog Modal",
+    "fileName": "dialog-modal-f1447eff.stories.ts",
+    "storyId": "story-f1447eff",
+    "hash": "f1447eff",
+    "createdAt": "2025-12-14T02:32:39.574Z",
+    "updatedAt": "2025-12-14T02:32:39.574Z",
+    "prompt": "Create a dialog modal"
+  },
+  {
+    "title": "Form with Text Inputs",
+    "fileName": "form-with-text-inputs-dcaca8f7.stories.ts",
+    "storyId": "story-dcaca8f7",
+    "hash": "dcaca8f7",
+    "createdAt": "2025-12-14T02:33:12.467Z",
+    "updatedAt": "2025-12-14T02:33:12.467Z",
+    "prompt": "Create a form with text inputs"
+  },
+  {
+    "title": "Slide Toggle Switch",
+    "fileName": "slide-toggle-switch-0dc41201.stories.ts",
+    "storyId": "story-0dc41201",
+    "hash": "0dc41201",
+    "createdAt": "2025-12-14T02:33:36.853Z",
+    "updatedAt": "2025-12-14T02:33:36.853Z",
+    "prompt": "Create a slide toggle switch"
+  },
+  {
+    "title": "Toolbar Navigation",
+    "fileName": "toolbar-navigation-75771f2f.stories.ts",
+    "storyId": "story-75771f2f",
+    "hash": "75771f2f",
+    "createdAt": "2025-12-14T02:34:07.467Z",
+    "updatedAt": "2025-12-14T02:34:07.467Z",
+    "prompt": "Create a toolbar navigation"
+  },
+  {
+    "title": "Progress Spinner",
+    "fileName": "progress-spinner-5e5e32d3.stories.ts",
+    "storyId": "story-5e5e32d3",
+    "hash": "5e5e32d3",
+    "createdAt": "2025-12-14T02:34:31.180Z",
+    "updatedAt": "2025-12-14T02:34:31.180Z",
+    "prompt": "Create a progress spinner"
+  },
+  {
+    "title": "List with Icons",
+    "fileName": "list-with-icons-7e21e4f5.stories.ts",
+    "storyId": "story-7e21e4f5",
+    "hash": "7e21e4f5",
+    "createdAt": "2025-12-14T02:35:01.094Z",
+    "updatedAt": "2025-12-14T02:35:01.094Z",
+    "prompt": "Create a list with icons"
+  },
+  {
+    "title": "Date Picker",
+    "fileName": "date-picker-52df033a.stories.ts",
+    "storyId": "story-52df033a",
+    "hash": "52df033a",
+    "createdAt": "2025-12-14T02:35:30.298Z",
+    "updatedAt": "2025-12-14T02:35:30.298Z",
+    "prompt": "Create a date picker"
+  },
+  {
+    "title": "Tabbed Interface",
+    "fileName": "tabbed-interface-2e183cc9.stories.ts",
+    "storyId": "story-2e183cc9",
+    "hash": "2e183cc9",
+    "createdAt": "2025-12-14T02:36:10.578Z",
+    "updatedAt": "2025-12-14T02:36:10.578Z",
+    "prompt": "Create tabbed interface"
   }
 ]
