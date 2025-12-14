@@ -22,9 +22,9 @@ const config: StorybookConfig = {
   },
   docs: {},
   webpackFinal: async (config) => {
-    // Add CSS loader for StoryUI panel CSS imports in TSX files
+    // Add CSS loader for all CSS imports (fonts, icons, StoryUI panel)
     config.module?.rules?.push({
-      test: /StoryUIPanel\.css$/,
+      test: /\.css$/,
       use: ['style-loader', 'css-loader'],
     });
     return config;
