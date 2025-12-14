@@ -52,5 +52,14 @@
     "createdAt": "2025-12-03T03:13:36.313Z",
     "updatedAt": "2025-12-03T03:13:36.313Z",
     "prompt": "Add an image at the top of the card using mat-card-image. Use a placeholder image URL like https://picsum.photos/400/200"
+  },
+  {
+    "title": "Simple Angular Material Button",
+    "fileName": "simple-angular-material-button-241609e7.stories.ts",
+    "storyId": "story-241609e7",
+    "hash": "241609e7",
+    "createdAt": "2025-12-13T23:31:20.217Z",
+    "updatedAt": "2025-12-13T23:32:10.138Z",
+    "prompt": "Make it a primary raised button"
   }
 ]
