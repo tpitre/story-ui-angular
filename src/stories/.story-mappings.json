@@ -10,11 +10,11 @@
   },
   {
     "title": "Primary Material Button",
-    "fileName": "primary-material-button-10036853.stories.tsx",
-    "storyId": "story-10036853",
-    "hash": "10036853",
+    "fileName": "primary-material-button-44e8a774.stories.ts",
+    "storyId": "story-44e8a774",
+    "hash": "44e8a774",
     "createdAt": "2025-12-02T18:59:13.132Z",
-    "updatedAt": "2025-12-02T19:27:14.482Z",
+    "updatedAt": "2025-12-14T21:30:55.381Z",
     "prompt": "Create a simple Angular Material button with primary color"
   },
   {
@@ -136,12 +136,12 @@
   },
   {
     "title": "Progress Spinner",
-    "fileName": "progress-spinner-5e5e32d3.stories.ts",
-    "storyId": "story-5e5e32d3",
-    "hash": "5e5e32d3",
+    "fileName": "progress-spinner-01564e6b.stories.ts",
+    "storyId": "story-01564e6b",
+    "hash": "01564e6b",
     "createdAt": "2025-12-14T02:34:31.180Z",
-    "updatedAt": "2025-12-14T02:34:31.180Z",
-    "prompt": "Create a progress spinner"
+    "updatedAt": "2025-12-14T23:45:53.987Z",
+    "prompt": "A progress spinner"
   },
   {
     "title": "List with Icons",
@@ -169,5 +169,14 @@
     "createdAt": "2025-12-14T02:36:10.578Z",
     "updatedAt": "2025-12-14T02:36:10.578Z",
     "prompt": "Create tabbed interface"
+  },
+  {
+    "title": "Simple Button",
+    "fileName": "simple-button-fb930b0d.stories.ts",
+    "storyId": "story-fb930b0d",
+    "hash": "fb930b0d",
+    "createdAt": "2025-12-14T23:17:59.324Z",
+    "updatedAt": "2025-12-14T23:17:59.324Z",
+    "prompt": "A simple button"
   }
 ]

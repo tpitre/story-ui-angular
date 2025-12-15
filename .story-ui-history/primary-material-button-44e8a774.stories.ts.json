@@ -1,0 +1,14 @@
+{
+  "storyId": "primary-material-button-44e8a774.stories.ts",
+  "title": "Primary Material Button 44e8a774.Stories.Ts",
+  "versions": [
+    {
+      "id": "76b6dfc9569427a0",
+      "timestamp": 1765747855382,
+      "prompt": "Create a simple Angular Material button with primary color",
+      "code": "import type { Meta, StoryObj } from '@storybook/angular';\nimport { moduleMetadata } from '@storybook/angular';\nimport { MatButtonModule } from '@angular/material/button';\n\nconst meta: Meta = {\n  title: 'Generated/Primary Material Button (44e8a774)',\n  tags: ['autodocs'],\n  decorators: [\n    moduleMetadata({\n      imports: [MatButtonModule],\n    }),\n  ],\n  parameters: { layout: 'centered' },\n  argTypes: {\n    onClick: { action: 'clicked' },\n  },\n};\n\nexport default meta;\ntype Story = StoryObj;\n\nexport const Primary: Story = {\n  render: (args) => ({\n    props: args,\n    template: `\n      <button mat-raised-button color=\"primary\" (click)=\"onClick($event)\">\n        Primary Button\n      </button>\n    `,\n  }),\n};\n\nexport const PrimaryFlat: Story = {\n  render: (args) => ({\n    props: args,\n    template: `\n      <button mat-flat-button color=\"primary\" (click)=\"onClick($event)\">\n        Primary Flat\n      </button>\n    `,\n  }),\n};\n\nexport const PrimaryStroked: Story = {\n  render: (args) => ({\n    props: args,\n    template: `\n      <button mat-stroked-button color=\"primary\" (click)=\"onClick($event)\">\n        Primary Stroked\n      </button>\n    `,\n  }),\n};\n\nexport const AllVariants: Story = {\n  render: (args) => ({\n    props: args,\n    template: `\n      <div style=\"display: flex; gap: 16px; align-items: center;\">\n        <button mat-raised-button color=\"primary\" (click)=\"onClick($event)\">Raised</button>\n        <button mat-flat-button color=\"primary\" (click)=\"onClick($event)\">Flat</button>\n        <button mat-stroked-button color=\"primary\" (click)=\"onClick($event)\">Stroked</button>\n        <button mat-button color=\"primary\" (click)=\"onClick($event)\">Basic</button>\n      </div>\n    `,\n  }),\n};",
+      "fileName": "primary-material-button-44e8a774.stories.ts"
+    }
+  ],
+  "currentVersionId": "76b6dfc9569427a0"
+}

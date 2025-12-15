@@ -1,0 +1,14 @@
+{
+  "storyId": "simple-button-fb930b0d.stories.ts",
+  "title": "Simple Button Fb930b0d.Stories.Ts",
+  "versions": [
+    {
+      "id": "dfc7d666a4e62f44",
+      "timestamp": 1765754279325,
+      "prompt": "A simple button",
+      "code": "import type { Meta, StoryObj } from '@storybook/angular';\nimport { moduleMetadata } from '@storybook/angular';\nimport { MatButtonModule } from '@angular/material/button';\n\nconst meta: Meta = {\n  title: 'Generated/Simple Button',\n  id: 'simple-button-fb930b0d',\n  tags: ['autodocs'],\n  decorators: [\n    moduleMetadata({\n      imports: [MatButtonModule],\n    }),\n  ],\n  parameters: { layout: 'centered' },\n  argTypes: {\n    onClick: { action: 'clicked' },\n  },\n};\n\nexport default meta;\ntype Story = StoryObj;\n\nexport const Basic: Story = {\n  render: (args) => ({\n    props: args,\n    template: `\n      <button mat-button (click)=\"onClick($event)\">Click me</button>\n    `,\n  }),\n};\n\nexport const Raised: Story = {\n  render: (args) => ({\n    props: args,\n    template: `\n      <button mat-raised-button (click)=\"onClick($event)\">Raised Button</button>\n    `,\n  }),\n};\n\nexport const Flat: Story = {\n  render: (args) => ({\n    props: args,\n    template: `\n      <button mat-flat-button (click)=\"onClick($event)\">Flat Button</button>\n    `,\n  }),\n};\n\nexport const Stroked: Story = {\n  render: (args) => ({\n    props: args,\n    template: `\n      <button mat-stroked-button (click)=\"onClick($event)\">Stroked Button</button>\n    `,\n  }),\n};\n\nexport const AllVariants: Story = {\n  render: (args) => ({\n    props: args,\n    template: `\n      <div style=\"display: flex; gap: 12px; align-items: center;\">\n        <button mat-button (click)=\"onClick($event)\">Basic</button>\n        <button mat-raised-button (click)=\"onClick($event)\">Raised</button>\n        <button mat-flat-button (click)=\"onClick($event)\">Flat</button>\n        <button mat-stroked-button (click)=\"onClick($event)\">Stroked</button>\n      </div>\n    `,\n  }),\n};\n\nexport const Disabled: Story = {\n  render: () => ({\n    template: `\n      <button mat-raised-button disabled>Disabled Button</button>\n    `,\n  }),\n};",
+      "fileName": "simple-button-fb930b0d.stories.ts"
+    }
+  ],
+  "currentVersionId": "dfc7d666a4e62f44"
+}

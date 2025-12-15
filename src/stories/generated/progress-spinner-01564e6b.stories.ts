@@ -4,6 +4,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 const meta: Meta = {
   title: 'Generated/Progress Spinner',
+  id: 'progress-spinner-01564e6b',
   tags: ['autodocs'],
   decorators: [
     moduleMetadata({
@@ -35,7 +36,7 @@ export const Determinate: Story = {
   }),
 };
 
-export const WithDifferentColors: Story = {
+export const CustomColor: Story = {
   render: () => ({
     template: `
       <div style="display: flex; gap: 24px; align-items: center;">
@@ -47,23 +48,38 @@ export const WithDifferentColors: Story = {
   }),
 };
 
-export const DifferentSizes: Story = {
+export const CustomSize: Story = {
   render: () => ({
     template: `
       <div style="display: flex; gap: 24px; align-items: center;">
-        <mat-progress-spinner mode="indeterminate" diameter="30"></mat-progress-spinner>
-        <mat-progress-spinner mode="indeterminate" diameter="50"></mat-progress-spinner>
-        <mat-progress-spinner mode="indeterminate" diameter="75"></mat-progress-spinner>
-        <mat-progress-spinner mode="indeterminate" diameter="100"></mat-progress-spinner>
+        <mat-progress-spinner mode="indeterminate" [diameter]="30"></mat-progress-spinner>
+        <mat-progress-spinner mode="indeterminate" [diameter]="50"></mat-progress-spinner>
+        <mat-progress-spinner mode="indeterminate" [diameter]="70"></mat-progress-spinner>
       </div>
     `,
   }),
 };
 
-export const DeterminateProgress: Story = {
+export const WithStrokeWidth: Story = {
   render: () => ({
     template: `
       <div style="display: flex; gap: 24px; align-items: center;">
+        <mat-progress-spinner mode="indeterminate" [strokeWidth]="2"></mat-progress-spinner>
+        <mat-progress-spinner mode="indeterminate" [strokeWidth]="5"></mat-progress-spinner>
+        <mat-progress-spinner mode="indeterminate" [strokeWidth]="10"></mat-progress-spinner>
+      </div>
+    `,
+  }),
+};
+
+export const LoadingStates: Story = {
+  render: () => ({
+    template: `
+      <div style="display: flex; gap: 24px; align-items: flex-start;">
+        <div style="text-align: center;">
+          <mat-progress-spinner mode="determinate" [value]="0"></mat-progress-spinner>
+          <p style="margin-top: 8px;">0%</p>
+        </div>
         <div style="text-align: center;">
           <mat-progress-spinner mode="determinate" [value]="25"></mat-progress-spinner>
           <p style="margin-top: 8px;">25%</p>
@@ -80,18 +96,6 @@ export const DeterminateProgress: Story = {
           <mat-progress-spinner mode="determinate" [value]="100"></mat-progress-spinner>
           <p style="margin-top: 8px;">100%</p>
         </div>
-      </div>
-    `,
-  }),
-};
-
-export const CustomStrokeWidth: Story = {
-  render: () => ({
-    template: `
-      <div style="display: flex; gap: 24px; align-items: center;">
-        <mat-progress-spinner mode="indeterminate" strokeWidth="2"></mat-progress-spinner>
-        <mat-progress-spinner mode="indeterminate" strokeWidth="5"></mat-progress-spinner>
-        <mat-progress-spinner mode="indeterminate" strokeWidth="10"></mat-progress-spinner>
       </div>
     `,
   }),
